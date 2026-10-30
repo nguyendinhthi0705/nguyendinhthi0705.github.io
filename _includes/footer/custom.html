@@ -3,4 +3,24 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+<!-- Open external links, email, and file/image downloads in a new tab -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var fileExt = /\.(pdf|jpe?g|png|gif|webp|svg|zip|docx?|pptx?|xlsx?|csv|txt)$/i;
+  var links = document.querySelectorAll('a[href]');
+  for (var i = 0; i < links.length; i++) {
+    var a = links[i];
+    var href = a.getAttribute('href') || '';
+    if (!href || href.charAt(0) === '#') { continue; }
+    var isExternal = a.hostname && a.hostname !== window.location.hostname;
+    var isMailto = /^mailto:/i.test(href);
+    var isFile = fileExt.test(a.pathname || href);
+    if (isExternal || isMailto || isFile) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
+  }
+});
+</script>
+
 <!-- end custom footer snippets -->

@@ -62,3 +62,39 @@ html[data-theme="dark"] .case-tag {
     background: #1e2a38;
     border-color: #2f4256;
 }
+
+/* ==========================================================================
+   ABOUT PAGE PHOTO GRID
+   ========================================================================== */
+
+.about-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin: 1.5em 0;
+}
+
+.about-photos figure {
+    margin: 0;
+}
+
+.about-photos img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid var(--global-border-color);
+}
+
+.about-photos figcaption {
+    margin-top: 0.4em;
+    font-size: 0.8em;
+    text-align: center;
+    color: var(--global-fig-caption-color);
+}
+
+@media (max-width: 600px) {
+    .about-photos {
+        grid-template-columns: 1fr;
+    }
+}

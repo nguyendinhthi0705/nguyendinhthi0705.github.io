@@ -28,7 +28,7 @@ My focus is **agentic AI in production**: architecture, evaluation, context engi
 - [AWS-First-GenAI-Journey](https://github.com/aws-samples/AWS-First-GenAI-Journey)
 - [Talks](/talks/)
 
-**Certifications:** Claude Certified Architect – Professional; AWS GenAI Developer Professional, Solutions Architect Professional, ML Specialty, Security Specialty and more. [Full list on Credly](CREDLY_URL)
+**Certifications:** Claude Certified Architect – Professional; AWS GenAI Developer Professional, Solutions Architect Professional, ML Specialty, Security Specialty and more. [Full list on Credly](https://www.credly.com/users/thi-nguyen-dinh)
 
 **Recognition:** AWS Vietnam GenAI Champion (2 years), Architect of the Year (2 years), Rookie of the Year, Innovation Architect of the Year, AWSome All-Star.
 

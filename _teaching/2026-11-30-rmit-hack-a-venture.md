@@ -9,4 +9,4 @@ location: "Vietnam"
 ---
 National-level FinTech hackathon. Theme: Open Innovation for a Resilient and Sustainable Financial System in Vietnam. Mentoring finalist teams (30/11/2026 – 13/1/2027) on technical soundness, scalability and business viability.
 
-Evidence: [event page](TODO) · certificate kept privately.
+Evidence: [event page](https://www.rmithackaventure.com/) · certificate kept privately.

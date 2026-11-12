@@ -9,4 +9,4 @@ location: "Vietnam"
 ---
 Southeast Asia's largest AI buildathon — 3,300+ builders from 60+ countries. TODO: confirm date.
 
-Evidence: [event page](TODO) · certificate kept privately.
+Evidence: [event page](https://aabw.genaifund.ai/) · certificate kept privately.

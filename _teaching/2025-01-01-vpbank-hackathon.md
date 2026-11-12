@@ -9,4 +9,4 @@ location: "Vietnam"
 ---
 TODO: add date, theme, number of teams.
 
-Evidence: [event page](TODO) · certificate kept privately.
+Evidence: [event page](https://vpbank.vietnamworks.com/) · certificate kept privately.

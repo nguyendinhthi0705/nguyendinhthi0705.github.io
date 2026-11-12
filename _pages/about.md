@@ -37,19 +37,4 @@ My focus is **agentic AI in production**: architecture, evaluation, context engi
 - Bachelor of Business Administration — University of Economics HCMC (2006–2009)
 - Master's coursework in Banking & Finance Law — Ho Chi Minh City Open University
 
-<div class="about-photos">
-  <figure>
-    <img src="/images/about/photo-1.jpg" alt="Judging a hackathon">
-    <figcaption>Judging a hackathon</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/about/photo-2.jpg" alt="Speaking at a workshop">
-    <figcaption>Speaking at a workshop</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/about/photo-3.jpg" alt="Mentoring builders">
-    <figcaption>Mentoring builders</figcaption>
-  </figure>
-</div>
-
 *Views are my own. All customer stories referenced here are publicly published.*

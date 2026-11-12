@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<p class="page__lead">List use cases I have been working on.</p>
+<p class="page__lead">Public AWS case studies on generative and agentic AI — from AI-assisted development to autonomous testing agents and a production multi-tenant agent platform.</p>
 
 {% assign ordered_portfolio = site.portfolio | sort: 'date' | reverse %}
 {% for post in ordered_portfolio %}
@@ -22,9 +22,10 @@ author_profile: true
       </h2>
 
       {% if post.date %}
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time></p>
       {% endif %}
 
+      {% if post.tags %}<p class="page__meta">{% for t in post.tags %}<span style="display:inline-block;font-size:0.75em;background:#f2f3f5;border-radius:4px;padding:1px 8px;margin:0 4px 4px 0;">{{ t }}</span>{% endfor %}</p>{% endif %}
       <div class="archive__item-excerpt" itemprop="description">
         {{ post.content | markdownify }}
       </div>

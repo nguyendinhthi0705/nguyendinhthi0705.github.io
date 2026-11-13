@@ -20,6 +20,9 @@ Organizers: feel free to use anything on this page for agendas, websites and ann
   display: block;
   border-radius: 4px;
 }
+.photo-grid img.thumb-portrait {
+  object-position: center top;
+}
 .copy-bio {
   display: inline-block;
   margin-top: 0.4em;
@@ -63,7 +66,7 @@ Organizers: feel free to use anything on this page for agendas, websites and ann
 Click any photo to open the full-resolution version.
 
 <div class="photo-grid">
-  <a href="/images/profile.jpg"><img src="/images/profile.jpg" alt="Thi Nguyen Dinh — profile"></a>
+  <a href="/images/profile.jpg"><img src="/images/profile.jpg" alt="Thi Nguyen Dinh — profile" class="thumb-portrait"></a>
   <a href="/images/bio-photo-1.jpg"><img src="/images/bio-photo-1.jpg" alt="Thi Nguyen Dinh — bio photo 1"></a>
   <a href="/images/bio-photo-2.jpg"><img src="/images/bio-photo-2.jpg" alt="Thi Nguyen Dinh — bio photo 2"></a>
 </div>
